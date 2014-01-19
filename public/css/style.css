@@ -102,9 +102,13 @@ ul {
 
 #home {
   background-image: url('../images/road.jpg') ;
-  background-size: 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-color: #F3F3F3;
+  background-color: #131E26;
 
 }
 
@@ -186,6 +190,7 @@ h3 {
   width: 600px;
   height: 400px;
   border:0px;
+  padding-bottom: 50px;
 
 }
 
@@ -193,4 +198,5 @@ h3 {
   text-decoration: none;
   color:#47639E;
 }
+
 
