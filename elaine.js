@@ -36,9 +36,4 @@ app.use(function (req, res, next){
 
 });
 
-<<<<<<< HEAD
 app.listen(1355,"127.0.0.1");
-
-=======
-app.listen(1355, "127.0.0.1");
->>>>>>> 66b823201ae7be9ffd26d7661b91aa6d432d19fc
