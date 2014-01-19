@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Elaine Fabri - Inglês particular de qualidade</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="css/reset-min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+<script type="text/javascript"
+  src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.arctext.js"></script>
+
+</head>
+
+<body>
+  <div id="menu">
+    <div class="bg_menu">
+    <ul class="navigation">
+      <li><a class="logotipo" href="#home">Elaine Fabri</a></li>
+      <li><a class="contato" href="#contato">Contato</a></li>
+    </ul>
+
+  </div>
+  </div>
+
+
+
+  <div class="slide" id="home">
+
+
+    <div class="container">
+
+      <div class="row">
+
+        <h3 class="headline center">Aulas particulares de inglês </br> para necessidades específicas</h3>
+        <p class="tagline center curve">&#9733; Inglês para jovens e adultos &#9733; Inglês para viagens &#9733; Inglês instrumental </p> <p class="tagline center">&#9733; Português para estrangeiros</p>
+
+      </div>
+
+    </div>
+
+
+  </div>
+
+  <div class="slide" id="contato">
+
+    <div class="container">
+
+      <div class="row">
+
+        <h3>Let's talk!</h3>
+        <br/> <br/> <br/>
+
+        <div class="left">
+              <dl>
+                <dd><i class="icon icon-map-marker"></i>Rua Salvador Corrêa, 603, 2&#186; andar, </br>sala 26, Vergueiro, Sorocaba - SP</dd>
+                <dd><i class=""></i><span> Facebook: </span> <a class="facebook" href="https://www.facebook.com/elaine.fabri">Elaine Fabri</a></dd>
+                <dd><i class=""></i><span>Telefone: </span>(015) 99786-3278</dd>
+                <dd><i class=""></i><span>E-mail: </span>marteelaine@yahoo.com.br</a></dd>
+              </dl>
+              <br>
+            </div>
+
+        <div class="right">
+              <iframe class="gmap" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Rua+Salvador+Corr%C3%AAa,+603,+Jardim+Vergueiro,+S%C3%A3o+Paulo,+Brazil&amp;aq=0&amp;oq=Rua+Salvador+Corr%C3%AAa,+603&amp;sll=-23.506385,-47.459071&amp;sspn=0.006434,0.011362&amp;ie=UTF8&amp;hq=&amp;hnear=Rua+Salvador+Corr%C3%AAa,+603+-+Jardim+Vergueiro,+S%C3%A3o+Paulo,+18030-130,+Brazil&amp;ll=-23.506385,-47.459071&amp;spn=0.006434,0.011362&amp;t=m&amp;z=14&amp;output=embed"></iframe>
+              </iframe>
+          </div>
+      </div>
+
+    </div>
+  </div>
+
+
+<script type="text/javascript">
+    $('.curve').arctext({radius: 800});
+
+    $(function() {
+        $('ul.navigation a').bind('click',function(event){
+            var $anchor = $(this);
+
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top
+            }, 1500,'easeInOutExpo');
+            event.preventDefault();
+        });
+    });
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', '']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+</body>
+</html>
